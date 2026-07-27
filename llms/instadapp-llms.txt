@@ -1,0 +1,27 @@
+# Instadapp
+
+> Instadapp is a DeFi middleware company that scales decentralized finance for users and developers through Smart Accounts. Its core DSA (DeFi Smart Accounts / DeFi Smart Layer) protocol aggregates lending, DEX, and yield protocols behind a single upgradable, non-custodial smart-contract layer, driven by a composable `cast()` function. Additional products include Fluid (a capital-efficient lending/DEX protocol), Avocado (a smart-contract wallet with account, gas, and smart-contract execution), and Instadapp Lite (streamlined vaults). The developer surface is on-chain smart contracts plus first-party JavaScript/TypeScript SDKs — there is no first-party REST API.
+
+## Products
+- [DSA — DeFi Smart Accounts](https://docs.instadapp.io/): Upgradable non-custodial smart-contract accounts that cast composable DeFi transactions across many protocols.
+- [Fluid](https://fluid.io/): Capital-efficient lending and DEX protocol.
+- [Avocado](https://avocado.instadapp.io/): Smart-contract wallet with account abstraction, gas abstraction, and smart-contract execution.
+- [Instadapp Lite](https://lite.instadapp.io/): Simplified DeFi vaults.
+
+## Docs
+- [Developer Documentation](https://docs.instadapp.io/): DSA getting started, connectors, resolvers, flashloans, and guides.
+- [Guides](https://guides.instadapp.io/): Step-by-step developer guides, including creating connectors.
+- [Networks](https://docs.instadapp.io/): Ethereum, Polygon, Optimism, Arbitrum, Base, Avalanche, BNB Chain, Fantom, Gnosis, Scroll, Polygon zkEVM, and more.
+
+## SDKs & Source
+- [dsa-connect (npm)](https://www.npmjs.com/package/dsa-connect): Primary SDK to build DSA smart accounts and cast() DeFi transactions.
+- [@instadapp/avocado (npm)](https://www.npmjs.com/package/@instadapp/avocado): Avocado smart-contract wallet client.
+- [@instadapp/fluid-solana-sdk (npm)](https://www.npmjs.com/package/@instadapp/fluid-solana-sdk): Fluid protocol SDK for Solana.
+- [@instadapp/transaction-builder (npm)](https://www.npmjs.com/package/@instadapp/transaction-builder): Compose multi-step on-chain transactions.
+- [GitHub — Instadapp](https://github.com/Instadapp): dsa-contracts, dsa-connectors, dsa-resolvers, fluid-contracts-public, and more (65 public repos).
+
+## Community & Legal
+- [Discord](https://discord.gg/instadapp): Developer and community support.
+- [Twitter/X](https://twitter.com/Instadapp): Product updates.
+- [Terms of Service](https://instadapp.io/terms)
+- [Privacy Policy](https://instadapp.io/privacy)

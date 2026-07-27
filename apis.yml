@@ -1,9 +1,31 @@
 aid: instadapp
 name: Instadapp
-description: 'Instadapp is a company surfaced as a portfolio company of pantera-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Instadapp is a decentralized finance (DeFi) middleware company that scales DeFi for
+  users and developers through non-custodial Smart Accounts. Its core DSA (DeFi Smart
+  Accounts / DeFi Smart Layer) protocol aggregates lending, DEX, and yield protocols
+  behind a single upgradable smart-contract layer, driven by a composable cast()
+  function, with connectors and resolvers for protocols such as Aave, Compound,
+  MakerDAO, and Uniswap. Instadapp also builds Fluid (a capital-efficient lending and
+  DEX protocol), Avocado (a smart-contract wallet with account, gas, and smart-contract
+  execution), and Instadapp Lite (simplified DeFi vaults). It supports Ethereum, Polygon,
+  Optimism, Arbitrum, Base, Avalanche, BNB Chain, Fantom, Gnosis, Scroll, and Polygon
+  zkEVM. The developer surface is on-chain smart contracts plus first-party JavaScript
+  and TypeScript SDKs published to npm; there is no first-party REST API. Instadapp is
+  backed by Pantera Capital.
 url: https://raw.githubusercontent.com/api-evangelist/instadapp/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/43632640?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Crypto
+- DeFi
+- Blockchain
+- Smart Contracts
+- Ethereum
+- Web3
+- Wallet
+- Decentralized Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,32 @@ maintainers:
 common:
 - type: Website
   url: https://instadapp.io/
+- type: DeveloperPortal
+  url: https://docs.instadapp.io/
+- type: Documentation
+  url: https://docs.instadapp.io/
+- type: GettingStarted
+  url: https://guides.instadapp.io/
+- type: GitHubOrganization
+  url: https://github.com/Instadapp
+- type: Support
+  url: https://discord.gg/instadapp
+- type: TermsOfService
+  url: https://instadapp.io/terms
+- type: PrivacyPolicy
+  url: https://instadapp.io/privacy
+- type: Packages
+  url: packages/instadapp-packages.yml
+- type: SDKs
+  url: packages/instadapp-packages.yml
+- type: LLMsTxt
+  url: llms/instadapp-llms.txt
+- type: WellKnown
+  url: well-known/instadapp-well-known.yml
+- type: DomainSecurity
+  url: security/instadapp-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

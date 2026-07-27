@@ -1,0 +1,125 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/org/instadapp + https://github.com/Instadapp
+notes: >-
+  Instadapp is a DeFi middleware company. Its developer surface is on-chain smart
+  contracts (DSA / DeFi Smart Accounts, Fluid, Avocado) plus first-party JavaScript
+  / TypeScript client libraries published to npm under the @instadapp scope, with
+  the DSA SDK published unscoped as dsa-connect. There is no first-party REST API,
+  so no server-side SDKs in other languages were found. Only clearly first-party
+  packages are marked official.
+packages:
+  - language: javascript
+    registry: npm
+    name: dsa-connect
+    version: 0.7.52
+    url: https://www.npmjs.com/package/dsa-connect
+    repository: https://github.com/Instadapp/dsa-connect
+    install: npm install dsa-connect
+    license: MIT
+    official: true
+    product: DSA (DeFi Smart Accounts)
+    description: Primary SDK to build DSA smart accounts and cast() composable DeFi transactions.
+  - language: javascript
+    registry: npm
+    name: "@instadapp/avocado"
+    version: 0.4.5
+    url: https://www.npmjs.com/package/@instadapp/avocado
+    install: npm install @instadapp/avocado
+    official: true
+    product: Avocado
+    description: Client library for the Avocado smart-contract wallet (account, gas, and smart-contract execution).
+  - language: javascript
+    registry: npm
+    name: "@instadapp/avocado-provider"
+    url: https://www.npmjs.com/package/@instadapp/avocado-provider
+    install: npm install @instadapp/avocado-provider
+    official: true
+    product: Avocado
+    description: EIP-1193 provider for connecting dapps to Avocado wallets.
+  - language: javascript
+    registry: npm
+    name: "@instadapp/avocado-base"
+    url: https://www.npmjs.com/package/@instadapp/avocado-base
+    install: npm install @instadapp/avocado-base
+    official: true
+    product: Avocado
+    description: Base utilities shared across the Avocado wallet SDKs.
+  - language: javascript
+    registry: npm
+    name: "@instadapp/fluid-solana-sdk"
+    version: 0.0.87
+    url: https://www.npmjs.com/package/@instadapp/fluid-solana-sdk
+    repository: https://github.com/Instadapp/fluid-solana-sdk
+    install: npm install @instadapp/fluid-solana-sdk
+    license: MIT
+    official: true
+    product: Fluid
+    description: SDK for the Fluid protocol deployment on Solana.
+  - language: javascript
+    registry: npm
+    name: "@instadapp/transaction-builder"
+    version: 0.0.12
+    url: https://www.npmjs.com/package/@instadapp/transaction-builder
+    repository: https://github.com/Instadapp/transaction-builder
+    install: npm install @instadapp/transaction-builder
+    license: MIT
+    official: true
+    description: Helper for composing multi-step on-chain transactions.
+  - language: javascript
+    registry: npm
+    name: "@instadapp/token-price"
+    version: 0.0.4
+    url: https://www.npmjs.com/package/@instadapp/token-price
+    repository: https://github.com/Instadapp/token-price
+    install: npm install @instadapp/token-price
+    license: MIT
+    official: true
+    description: Token price resolution utility across supported networks.
+  - language: javascript
+    registry: npm
+    name: "@instadapp/interop-x"
+    url: https://www.npmjs.com/package/@instadapp/interop-x
+    install: npm install @instadapp/interop-x
+    license: MIT
+    official: true
+    description: Cross-chain interoperability client (Interop).
+  - language: javascript
+    registry: npm
+    name: "@instadapp/interop-node"
+    url: https://www.npmjs.com/package/@instadapp/interop-node
+    install: npm install @instadapp/interop-node
+    official: true
+    description: Node client for the Interop cross-chain layer.
+  - language: javascript
+    registry: npm
+    name: "@instadapp/interop-core"
+    url: https://www.npmjs.com/package/@instadapp/interop-core
+    install: npm install @instadapp/interop-core
+    official: true
+    description: Core primitives for the Interop cross-chain layer.
+  - language: javascript
+    registry: npm
+    name: "@instadapp/utils"
+    version: 0.7.8
+    url: https://www.npmjs.com/package/@instadapp/utils
+    install: npm install @instadapp/utils
+    official: true
+    description: Shared utility library used across Instadapp packages.
+  - language: javascript
+    registry: npm
+    name: "@instadapp/vue-web3"
+    url: https://www.npmjs.com/package/@instadapp/vue-web3
+    install: npm install @instadapp/vue-web3
+    official: true
+    description: Vue composition API for web3 wallet connectivity.
+  - language: javascript
+    registry: npm
+    name: "@instadapp/vectorstore"
+    version: 0.0.1
+    url: https://www.npmjs.com/package/@instadapp/vectorstore
+    repository: https://github.com/Instadapp/vectorstore-client
+    install: npm install @instadapp/vectorstore
+    license: MIT
+    official: true
+    description: Client for Instadapp's vector-store service.
